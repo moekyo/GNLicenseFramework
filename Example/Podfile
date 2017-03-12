@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GNLicenseFramework_Example' do
+  pod 'GNLicenseFramework', :path => '../'
+
+  target 'GNLicenseFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
