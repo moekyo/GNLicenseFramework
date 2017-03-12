@@ -1,0 +1,16 @@
+PODS:
+  - GNLicenseFramework (0.1.0)
+
+DEPENDENCIES:
+  - GNLicenseFramework (from `../`)
+
+EXTERNAL SOURCES:
+  GNLicenseFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GNLicenseFramework: 1edae974f769597107e9bd4e544188789199a397
+
+PODFILE CHECKSUM: cfdb334d03690eb1eb05e3ef8aaf8d58a35946e8
+
+COCOAPODS: 1.2.0

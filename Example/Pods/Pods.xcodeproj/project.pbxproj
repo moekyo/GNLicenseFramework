@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC190A79097069A08628D261D64AD29 /* Pods-GNLicenseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF11B29E761DC9FB181F4B0A6E968 /* Pods-GNLicenseFramework_Tests-dummy.m */; };
+		49F8798BC88F66FE9A12C8DE97445A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4E1080F2AAC8C179CCC0C0FF0BB110DC /* GNLicenseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09151E2446D9B3C8DC68E18D77145E1A /* GNLicenseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6756E50DB12EBE24F00B15738864B820 /* GNLicenseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C9E7B1E6326861CDBBB8E2DCC99DB /* GNLicenseFramework-dummy.m */; };
+		95E1B5B810CB1254FC3CE8D7C93D7304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9E161429802E99A160B4B55D5817FA9E /* Pods-GNLicenseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E7101C47D79039CA3185727109F909 /* Pods-GNLicenseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C452F67731D73810F52F91454190C756 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */; };
+		C56716FB6DA805DC806553F5F25F17D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DD47E6868F77B94A92C3DB455A036DEF /* Pods-GNLicenseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 296017C7C80CBFD4977F7081B0647C26 /* Pods-GNLicenseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEBA18CDD4EF4F1C8A03BD36BB72FA8 /* Pods-GNLicenseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68B97E6992B1F1A45C6D43D34F48283 /* Pods-GNLicenseFramework_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709EB09F5477B8FB6D462FEAA4AB33C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F64910B7AFDBEDEB18CC7FBE61AF73A;
+			remoteInfo = GNLicenseFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D796102E7194B4874160FC2224CC83 /* GNLicenseFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNLicenseFramework.xcconfig; sourceTree = "<group>"; };
+		09151E2446D9B3C8DC68E18D77145E1A /* GNLicenseFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNLicenseFramework-umbrella.h"; sourceTree = "<group>"; };
+		0C69B675D0892F9A08611900E0D3089F /* Pods-GNLicenseFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNLicenseFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F6F8C000B86022FD67E4906A847F889 /* Pods-GNLicenseFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		24C8153D6FA6A3F48D310FCED5029524 /* Pods-GNLicenseFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		257CC6BCB2F36D85F365847A20895086 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296017C7C80CBFD4977F7081B0647C26 /* Pods-GNLicenseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNLicenseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		29CE575A9CFCE987F6F0DD19A4EA74A4 /* Pods-GNLicenseFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Example-resources.sh"; sourceTree = "<group>"; };
+		2EA69832F9B38DB0E967C93A5A8A0236 /* GNLicenseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNLicenseFramework.framework; path = GNLicenseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F40030D1717F6D76AF8D437DE817844 /* Pods-GNLicenseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3677A2C8E05F2188F8D0E4C15F39CC1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCF11B29E761DC9FB181F4B0A6E968 /* Pods-GNLicenseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNLicenseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+		4592FA6420C274D91D9EA719441F76B2 /* GNLicenseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GNLicenseFramework.modulemap; sourceTree = "<group>"; };
+		5DE6EC6760B4A343EA8C82837AEB8902 /* Pods-GNLicenseFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5FA30ADE259117E406E9C4AB3A1FEF3A /* Pods-GNLicenseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNLicenseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DD8CE28569EE13797439545F9907262 /* Pods-GNLicenseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GNLicenseFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		7B186CC52CC0CA4AC6159493BD60E8EB /* Pods_GNLicenseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNLicenseFramework_Tests.framework; path = "Pods-GNLicenseFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8C934434614E64B8D2B6D9C538B043 /* Pods-GNLicenseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B8B057FFFE16EA6AEE6C49D11A139F /* GNLicenseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNLicenseFramework-prefix.pch"; sourceTree = "<group>"; };
+		A2B5FB4249FE78B475E3BFC8ECB9C575 /* Pods_GNLicenseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNLicenseFramework_Example.framework; path = "Pods-GNLicenseFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		B644A24450946A78EAE44C010F76A129 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0009D2020B9D39116464BF9C63010DE /* Pods-GNLicenseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GNLicenseFramework_Example.modulemap"; sourceTree = "<group>"; };
+		C12C9E7B1E6326861CDBBB8E2DCC99DB /* GNLicenseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNLicenseFramework-dummy.m"; sourceTree = "<group>"; };
+		C6A5E686699BF9EA425C14F76D68F90F /* Pods-GNLicenseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNLicenseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF39E68C0E9DF8BC20EA65A4A06DD496 /* Pods-GNLicenseFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Tests-resources.sh"; sourceTree = "<group>"; };
+		D68B97E6992B1F1A45C6D43D34F48283 /* Pods-GNLicenseFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNLicenseFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		F249A47BA9796FCB4BEF22AB18560235 /* Pods-GNLicenseFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNLicenseFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6E7101C47D79039CA3185727109F909 /* Pods-GNLicenseFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNLicenseFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FAA0F960C21EEFBDFD4475DCAE4070C3 /* Pods-GNLicenseFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C74D698C5AE58FF87F95E953B6A18A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56716FB6DA805DC806553F5F25F17D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812344266F2920BF614A374D9CF0B2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E1B5B810CB1254FC3CE8D7C93D7304 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5C183EFBFDF2F365EDFBB3DCF9BF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F8798BC88F66FE9A12C8DE97445A1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096A4F537B87211BF9FDAF3563ED5132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA69832F9B38DB0E967C93A5A8A0236 /* GNLicenseFramework.framework */,
+				A2B5FB4249FE78B475E3BFC8ECB9C575 /* Pods_GNLicenseFramework_Example.framework */,
+				7B186CC52CC0CA4AC6159493BD60E8EB /* Pods_GNLicenseFramework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F1E24FFB223EAEC46A4CEDA9D5481F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B6F58C9B9D4E726963A71ED7868905C /* GNLicenseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A702CD581525FC2699146EE6029ACB44 /* GNLicenseFramework */,
+				825D92AFD786AAA83BF542182D63F175 /* Support Files */,
+			);
+			name = GNLicenseFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		63C95095BD111DB5F2AFF0C0207104F3 /* Pods-GNLicenseFramework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B644A24450946A78EAE44C010F76A129 /* Info.plist */,
+				C0009D2020B9D39116464BF9C63010DE /* Pods-GNLicenseFramework_Example.modulemap */,
+				5FA30ADE259117E406E9C4AB3A1FEF3A /* Pods-GNLicenseFramework_Example-acknowledgements.markdown */,
+				F249A47BA9796FCB4BEF22AB18560235 /* Pods-GNLicenseFramework_Example-acknowledgements.plist */,
+				D68B97E6992B1F1A45C6D43D34F48283 /* Pods-GNLicenseFramework_Example-dummy.m */,
+				0F6F8C000B86022FD67E4906A847F889 /* Pods-GNLicenseFramework_Example-frameworks.sh */,
+				29CE575A9CFCE987F6F0DD19A4EA74A4 /* Pods-GNLicenseFramework_Example-resources.sh */,
+				296017C7C80CBFD4977F7081B0647C26 /* Pods-GNLicenseFramework_Example-umbrella.h */,
+				24C8153D6FA6A3F48D310FCED5029524 /* Pods-GNLicenseFramework_Example.debug.xcconfig */,
+				FAA0F960C21EEFBDFD4475DCAE4070C3 /* Pods-GNLicenseFramework_Example.release.xcconfig */,
+			);
+			name = "Pods-GNLicenseFramework_Example";
+			path = "Target Support Files/Pods-GNLicenseFramework_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7895B33503D86385EA5541426A24F927 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C95095BD111DB5F2AFF0C0207104F3 /* Pods-GNLicenseFramework_Example */,
+				8A1665117899B053BBDD71FB98D648C4 /* Pods-GNLicenseFramework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				825B0CDA4B51ED007312C8947FCD53FB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				096A4F537B87211BF9FDAF3563ED5132 /* Products */,
+				7895B33503D86385EA5541426A24F927 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		825B0CDA4B51ED007312C8947FCD53FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B6F58C9B9D4E726963A71ED7868905C /* GNLicenseFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		825D92AFD786AAA83BF542182D63F175 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4592FA6420C274D91D9EA719441F76B2 /* GNLicenseFramework.modulemap */,
+				00D796102E7194B4874160FC2224CC83 /* GNLicenseFramework.xcconfig */,
+				C12C9E7B1E6326861CDBBB8E2DCC99DB /* GNLicenseFramework-dummy.m */,
+				94B8B057FFFE16EA6AEE6C49D11A139F /* GNLicenseFramework-prefix.pch */,
+				09151E2446D9B3C8DC68E18D77145E1A /* GNLicenseFramework-umbrella.h */,
+				3677A2C8E05F2188F8D0E4C15F39CC1A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GNLicenseFramework";
+			sourceTree = "<group>";
+		};
+		8A1665117899B053BBDD71FB98D648C4 /* Pods-GNLicenseFramework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				257CC6BCB2F36D85F365847A20895086 /* Info.plist */,
+				6DD8CE28569EE13797439545F9907262 /* Pods-GNLicenseFramework_Tests.modulemap */,
+				0C69B675D0892F9A08611900E0D3089F /* Pods-GNLicenseFramework_Tests-acknowledgements.markdown */,
+				C6A5E686699BF9EA425C14F76D68F90F /* Pods-GNLicenseFramework_Tests-acknowledgements.plist */,
+				3CDCF11B29E761DC9FB181F4B0A6E968 /* Pods-GNLicenseFramework_Tests-dummy.m */,
+				5DE6EC6760B4A343EA8C82837AEB8902 /* Pods-GNLicenseFramework_Tests-frameworks.sh */,
+				CF39E68C0E9DF8BC20EA65A4A06DD496 /* Pods-GNLicenseFramework_Tests-resources.sh */,
+				F6E7101C47D79039CA3185727109F909 /* Pods-GNLicenseFramework_Tests-umbrella.h */,
+				2F40030D1717F6D76AF8D437DE817844 /* Pods-GNLicenseFramework_Tests.debug.xcconfig */,
+				8C8C934434614E64B8D2B6D9C538B043 /* Pods-GNLicenseFramework_Tests.release.xcconfig */,
+			);
+			name = "Pods-GNLicenseFramework_Tests";
+			path = "Target Support Files/Pods-GNLicenseFramework_Tests";
+			sourceTree = "<group>";
+		};
+		A702CD581525FC2699146EE6029ACB44 /* GNLicenseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				34F1E24FFB223EAEC46A4CEDA9D5481F /* Classes */,
+			);
+			name = GNLicenseFramework;
+			path = GNLicenseFramework;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		793FD10CDA632D2540B39942378B2B60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1080F2AAC8C179CCC0C0FF0BB110DC /* GNLicenseFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35A0681CE6170B173481782E0333AE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E161429802E99A160B4B55D5817FA9E /* Pods-GNLicenseFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCBBE7109BA891E4AF5B567CBF5DC9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD47E6868F77B94A92C3DB455A036DEF /* Pods-GNLicenseFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B6DA49E0FBF35AAA2ED8CBE06467348 /* Pods-GNLicenseFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019A94B19FCE2320554ED4DDF18DC62A /* Build configuration list for PBXNativeTarget "Pods-GNLicenseFramework_Example" */;
+			buildPhases = (
+				DFCD85FA24C9370F393894F62EB09835 /* Sources */,
+				FB5C183EFBFDF2F365EDFBB3DCF9BF8F /* Frameworks */,
+				FCCBBE7109BA891E4AF5B567CBF5DC9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F2070B1BEBD0B1FE5B1D4A6265E609 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNLicenseFramework_Example";
+			productName = "Pods-GNLicenseFramework_Example";
+			productReference = A2B5FB4249FE78B475E3BFC8ECB9C575 /* Pods_GNLicenseFramework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F64910B7AFDBEDEB18CC7FBE61AF73A /* GNLicenseFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C54F91D0120A8FC6B98117AC00511B6 /* Build configuration list for PBXNativeTarget "GNLicenseFramework" */;
+			buildPhases = (
+				5182DB967B28F241D53CAEAD36D99D53 /* Sources */,
+				5C74D698C5AE58FF87F95E953B6A18A5 /* Frameworks */,
+				793FD10CDA632D2540B39942378B2B60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNLicenseFramework;
+			productName = GNLicenseFramework;
+			productReference = 2EA69832F9B38DB0E967C93A5A8A0236 /* GNLicenseFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79013ABF88169CE96F21728E614396B9 /* Pods-GNLicenseFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCCECB535DDEC6E940F5803BD5E1C87 /* Build configuration list for PBXNativeTarget "Pods-GNLicenseFramework_Tests" */;
+			buildPhases = (
+				539377A1C7C0CB612F4B1710247FDC38 /* Sources */,
+				812344266F2920BF614A374D9CF0B2A2 /* Frameworks */,
+				A35A0681CE6170B173481782E0333AE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GNLicenseFramework_Tests";
+			productName = "Pods-GNLicenseFramework_Tests";
+			productReference = 7B186CC52CC0CA4AC6159493BD60E8EB /* Pods_GNLicenseFramework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 096A4F537B87211BF9FDAF3563ED5132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F64910B7AFDBEDEB18CC7FBE61AF73A /* GNLicenseFramework */,
+				2B6DA49E0FBF35AAA2ED8CBE06467348 /* Pods-GNLicenseFramework_Example */,
+				79013ABF88169CE96F21728E614396B9 /* Pods-GNLicenseFramework_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5182DB967B28F241D53CAEAD36D99D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6756E50DB12EBE24F00B15738864B820 /* GNLicenseFramework-dummy.m in Sources */,
+				C452F67731D73810F52F91454190C756 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539377A1C7C0CB612F4B1710247FDC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC190A79097069A08628D261D64AD29 /* Pods-GNLicenseFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD85FA24C9370F393894F62EB09835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEBA18CDD4EF4F1C8A03BD36BB72FA8 /* Pods-GNLicenseFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51F2070B1BEBD0B1FE5B1D4A6265E609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNLicenseFramework;
+			target = 5F64910B7AFDBEDEB18CC7FBE61AF73A /* GNLicenseFramework */;
+			targetProxy = 709EB09F5477B8FB6D462FEAA4AB33C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		107BB1CCD7113BD53BBC466683E933F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D796102E7194B4874160FC2224CC83 /* GNLicenseFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNLicenseFramework/GNLicenseFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNLicenseFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNLicenseFramework/GNLicenseFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GNLicenseFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17A7B68C528C60176F48ED48B299783A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA0F960C21EEFBDFD4475DCAE4070C3 /* Pods-GNLicenseFramework_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNLicenseFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNLicenseFramework_Example/Pods-GNLicenseFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GNLicenseFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		545F3EC98FFDA98CB8DADD1C9B9F07C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C8153D6FA6A3F48D310FCED5029524 /* Pods-GNLicenseFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNLicenseFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNLicenseFramework_Example/Pods-GNLicenseFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GNLicenseFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		704426B066D3C2E33134BE8939BC277D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F40030D1717F6D76AF8D437DE817844 /* Pods-GNLicenseFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNLicenseFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNLicenseFramework_Tests/Pods-GNLicenseFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GNLicenseFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF73E3F83F60DCAE78B57146902A0399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D796102E7194B4874160FC2224CC83 /* GNLicenseFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNLicenseFramework/GNLicenseFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNLicenseFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNLicenseFramework/GNLicenseFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GNLicenseFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE6AECA014B113043C255C6FF223091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8C934434614E64B8D2B6D9C538B043 /* Pods-GNLicenseFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNLicenseFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNLicenseFramework_Tests/Pods-GNLicenseFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GNLicenseFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019A94B19FCE2320554ED4DDF18DC62A /* Build configuration list for PBXNativeTarget "Pods-GNLicenseFramework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545F3EC98FFDA98CB8DADD1C9B9F07C5 /* Debug */,
+				17A7B68C528C60176F48ED48B299783A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C54F91D0120A8FC6B98117AC00511B6 /* Build configuration list for PBXNativeTarget "GNLicenseFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107BB1CCD7113BD53BBC466683E933F7 /* Debug */,
+				BF73E3F83F60DCAE78B57146902A0399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCCECB535DDEC6E940F5803BD5E1C87 /* Build configuration list for PBXNativeTarget "Pods-GNLicenseFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704426B066D3C2E33134BE8939BC277D /* Debug */,
+				DE6AECA014B113043C255C6FF223091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

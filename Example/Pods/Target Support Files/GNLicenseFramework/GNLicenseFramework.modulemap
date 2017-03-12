@@ -1,0 +1,6 @@
+framework module GNLicenseFramework {
+  umbrella header "GNLicenseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
