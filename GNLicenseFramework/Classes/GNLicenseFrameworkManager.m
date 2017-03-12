@@ -1,5 +1,5 @@
 //
-//  UCLicenseFrameworkManager.m
+//  GNLicenseFrameworkManager.m
 //  UCLicenseFramework
 //
 //  Created by moekyo on 2017/2/28.
@@ -23,7 +23,7 @@
 @end
 
 
-@implementation UCLicenseFrameworkManager
+@implementation GNLicenseFrameworkManager
 
 
 
@@ -127,7 +127,7 @@ static NSData *base64_decode(NSString *str){
     
     // This will be base64 encoded, decode it.
     NSData *data = base64_decode(key);
-    data = [UCLicenseFrameworkManager stripPublicKeyHeader:data];
+    data = [GNLicenseFrameworkManager stripPublicKeyHeader:data];
     if(!data){
         return nil;
     }
@@ -196,7 +196,7 @@ static NSData *base64_decode(NSString *str){
     
     // This will be base64 encoded, decode it.
     NSData *data = base64_decode(key);
-    data = [UCLicenseFrameworkManager stripPrivateKeyHeader:data];
+    data = [GNLicenseFrameworkManager stripPrivateKeyHeader:data];
     if(!data){
         return nil;
     }
@@ -284,7 +284,7 @@ static NSData *base64_decode(NSString *str){
 }
 
 + (NSString *)encryptString:(NSString *)str privateKey:(NSString *)privKey{
-    NSData *data = [UCLicenseFrameworkManager encryptData:[str dataUsingEncoding:NSUTF8StringEncoding] privateKey:privKey];
+    NSData *data = [GNLicenseFrameworkManager encryptData:[str dataUsingEncoding:NSUTF8StringEncoding] privateKey:privKey];
     NSString *ret = base64_encode_data(data);
     return ret;
 }
@@ -293,11 +293,11 @@ static NSData *base64_decode(NSString *str){
     if(!data || !privKey){
         return nil;
     }
-    SecKeyRef keyRef = [UCLicenseFrameworkManager addPrivateKey:privKey];
+    SecKeyRef keyRef = [GNLicenseFrameworkManager addPrivateKey:privKey];
     if(!keyRef){
         return nil;
     }
-    return [UCLicenseFrameworkManager encryptData:data withKeyRef:keyRef];
+    return [GNLicenseFrameworkManager encryptData:data withKeyRef:keyRef];
 }
 
 + (NSData *)decryptData:(NSData *)data withKeyRef:(SecKeyRef) keyRef{
@@ -356,7 +356,7 @@ static NSData *base64_decode(NSString *str){
 
 + (NSString *)decryptString:(NSString *)str privateKey:(NSString *)privKey{
     NSData *data = [[NSData alloc] initWithBase64EncodedString:str options:NSDataBase64DecodingIgnoreUnknownCharacters];
-    data = [UCLicenseFrameworkManager decryptData:data privateKey:privKey];
+    data = [GNLicenseFrameworkManager decryptData:data privateKey:privKey];
     NSString *ret = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     return ret;
 }
@@ -365,11 +365,11 @@ static NSData *base64_decode(NSString *str){
     if(!data || !privKey){
         return nil;
     }
-    SecKeyRef keyRef = [UCLicenseFrameworkManager addPrivateKey:privKey];
+    SecKeyRef keyRef = [GNLicenseFrameworkManager addPrivateKey:privKey];
     if(!keyRef){
         return nil;
     }
-    return [UCLicenseFrameworkManager decryptData:data withKeyRef:keyRef];
+    return [GNLicenseFrameworkManager decryptData:data withKeyRef:keyRef];
 }
 
 /* END: Encryption & Decryption with RSA private key */
@@ -377,7 +377,7 @@ static NSData *base64_decode(NSString *str){
 /* START: Encryption & Decryption with RSA public key */
 
 + (NSString *)encryptString:(NSString *)str publicKey:(NSString *)pubKey{
-    NSData *data = [UCLicenseFrameworkManager encryptData:[str dataUsingEncoding:NSUTF8StringEncoding] publicKey:pubKey];
+    NSData *data = [GNLicenseFrameworkManager encryptData:[str dataUsingEncoding:NSUTF8StringEncoding] publicKey:pubKey];
     NSString *ret = base64_encode_data(data);
     return ret;
 }
@@ -386,16 +386,16 @@ static NSData *base64_decode(NSString *str){
     if(!data || !pubKey){
         return nil;
     }
-    SecKeyRef keyRef = [UCLicenseFrameworkManager addPublicKey:pubKey];
+    SecKeyRef keyRef = [GNLicenseFrameworkManager addPublicKey:pubKey];
     if(!keyRef){
         return nil;
     }
-    return [UCLicenseFrameworkManager encryptData:data withKeyRef:keyRef];
+    return [GNLicenseFrameworkManager encryptData:data withKeyRef:keyRef];
 }
 
 + (NSString *)decryptString:(NSString *)str publicKey:(NSString *)pubKey{
     NSData *data = [[NSData alloc] initWithBase64EncodedString:str options:NSDataBase64DecodingIgnoreUnknownCharacters];
-    data = [UCLicenseFrameworkManager decryptData:data publicKey:pubKey];
+    data = [GNLicenseFrameworkManager decryptData:data publicKey:pubKey];
     NSString *ret = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     return ret;
 }
@@ -404,11 +404,11 @@ static NSData *base64_decode(NSString *str){
     if(!data || !pubKey){
         return nil;
     }
-    SecKeyRef keyRef = [UCLicenseFrameworkManager addPublicKey:pubKey];
+    SecKeyRef keyRef = [GNLicenseFrameworkManager addPublicKey:pubKey];
     if(!keyRef){
         return nil;
     }
-    return [UCLicenseFrameworkManager decryptData:data withKeyRef:keyRef];
+    return [GNLicenseFrameworkManager decryptData:data withKeyRef:keyRef];
 }
 
 /* END: Encryption & Decryption with RSA public key */

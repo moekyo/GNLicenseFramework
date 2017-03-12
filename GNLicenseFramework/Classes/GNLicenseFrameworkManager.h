@@ -1,5 +1,5 @@
 //
-//  UCLicenseFrameworkManager.h
+//  GNLicenseFrameworkManager.h
 //  UCLicenseFramework
 //
 //  Created by moekyo on 2017/2/28.
