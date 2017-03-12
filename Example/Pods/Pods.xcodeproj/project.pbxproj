@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2AC190A79097069A08628D261D64AD29 /* Pods-GNLicenseFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCF11B29E761DC9FB181F4B0A6E968 /* Pods-GNLicenseFramework_Tests-dummy.m */; };
+		453AA1061E7578F8008722C4 /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 453AA1041E7578F8008722C4 /* NSString+Hash.h */; };
+		453AA1071E7578F8008722C4 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 453AA1051E7578F8008722C4 /* NSString+Hash.m */; };
+		45F5C7911E7573E300BE363F /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7821E7573E300BE363F /* Base64.h */; };
+		45F5C7921E7573E300BE363F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7831E7573E300BE363F /* Base64.m */; };
+		45F5C7971E7573E300BE363F /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7881E7573E300BE363F /* RSA.h */; };
+		45F5C7981E7573E300BE363F /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7891E7573E300BE363F /* RSA.m */; };
+		45F5C7991E7573E300BE363F /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C78A1E7573E300BE363F /* SAMKeychain.h */; };
+		45F5C79A1E7573E300BE363F /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C78B1E7573E300BE363F /* SAMKeychain.m */; };
+		45F5C79B1E7573E300BE363F /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C78C1E7573E300BE363F /* SAMKeychainQuery.h */; };
+		45F5C79C1E7573E300BE363F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C78D1E7573E300BE363F /* SAMKeychainQuery.m */; };
+		45F5C79E1E7573E300BE363F /* GNLicenseFrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C78F1E7573E300BE363F /* GNLicenseFrameworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F5C79F1E7573E300BE363F /* GNLicenseFrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7901E7573E300BE363F /* GNLicenseFrameworkManager.m */; };
+		45F5C7AD1E7573F500BE363F /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7A01E7573F500BE363F /* AESCrypt.h */; };
+		45F5C7AE1E7573F500BE363F /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7A11E7573F500BE363F /* AESCrypt.m */; };
+		45F5C7B41E7573F500BE363F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7A71E7573F500BE363F /* NSData+Base64.h */; };
+		45F5C7B51E7573F500BE363F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7A81E7573F500BE363F /* NSData+Base64.m */; };
+		45F5C7B61E7573F500BE363F /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7A91E7573F500BE363F /* NSData+CommonCrypto.h */; };
+		45F5C7B71E7573F500BE363F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7AA1E7573F500BE363F /* NSData+CommonCrypto.m */; };
+		45F5C7B81E7573F500BE363F /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5C7AB1E7573F500BE363F /* NSString+Base64.h */; };
+		45F5C7B91E7573F500BE363F /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5C7AC1E7573F500BE363F /* NSString+Base64.m */; };
 		49F8798BC88F66FE9A12C8DE97445A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4E1080F2AAC8C179CCC0C0FF0BB110DC /* GNLicenseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09151E2446D9B3C8DC68E18D77145E1A /* GNLicenseFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E1080F2AAC8C179CCC0C0FF0BB110DC /* GNLicenseFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09151E2446D9B3C8DC68E18D77145E1A /* GNLicenseFramework-umbrella.h */; };
 		6756E50DB12EBE24F00B15738864B820 /* GNLicenseFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C12C9E7B1E6326861CDBBB8E2DCC99DB /* GNLicenseFramework-dummy.m */; };
 		95E1B5B810CB1254FC3CE8D7C93D7304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9E161429802E99A160B4B55D5817FA9E /* Pods-GNLicenseFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E7101C47D79039CA3185727109F909 /* Pods-GNLicenseFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C452F67731D73810F52F91454190C756 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */; };
 		C56716FB6DA805DC806553F5F25F17D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DD47E6868F77B94A92C3DB455A036DEF /* Pods-GNLicenseFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 296017C7C80CBFD4977F7081B0647C26 /* Pods-GNLicenseFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAEBA18CDD4EF4F1C8A03BD36BB72FA8 /* Pods-GNLicenseFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68B97E6992B1F1A45C6D43D34F48283 /* Pods-GNLicenseFramework_Example-dummy.m */; };
@@ -38,22 +57,41 @@
 		257CC6BCB2F36D85F365847A20895086 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296017C7C80CBFD4977F7081B0647C26 /* Pods-GNLicenseFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNLicenseFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		29CE575A9CFCE987F6F0DD19A4EA74A4 /* Pods-GNLicenseFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		2EA69832F9B38DB0E967C93A5A8A0236 /* GNLicenseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNLicenseFramework.framework; path = GNLicenseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA69832F9B38DB0E967C93A5A8A0236 /* GNLicenseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNLicenseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F40030D1717F6D76AF8D437DE817844 /* Pods-GNLicenseFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3677A2C8E05F2188F8D0E4C15F39CC1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CDCF11B29E761DC9FB181F4B0A6E968 /* Pods-GNLicenseFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNLicenseFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		4592FA6420C274D91D9EA719441F76B2 /* GNLicenseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GNLicenseFramework.modulemap; sourceTree = "<group>"; };
+		453AA1041E7578F8008722C4 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		453AA1051E7578F8008722C4 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		4592FA6420C274D91D9EA719441F76B2 /* GNLicenseFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GNLicenseFramework.modulemap; sourceTree = "<group>"; };
+		45F5C7821E7573E300BE363F /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		45F5C7831E7573E300BE363F /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		45F5C7881E7573E300BE363F /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		45F5C7891E7573E300BE363F /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		45F5C78A1E7573E300BE363F /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		45F5C78B1E7573E300BE363F /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		45F5C78C1E7573E300BE363F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		45F5C78D1E7573E300BE363F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		45F5C78F1E7573E300BE363F /* GNLicenseFrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNLicenseFrameworkManager.h; sourceTree = "<group>"; };
+		45F5C7901E7573E300BE363F /* GNLicenseFrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNLicenseFrameworkManager.m; sourceTree = "<group>"; };
+		45F5C7A01E7573F500BE363F /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		45F5C7A11E7573F500BE363F /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		45F5C7A71E7573F500BE363F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		45F5C7A81E7573F500BE363F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		45F5C7A91E7573F500BE363F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		45F5C7AA1E7573F500BE363F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		45F5C7AB1E7573F500BE363F /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		45F5C7AC1E7573F500BE363F /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		5DE6EC6760B4A343EA8C82837AEB8902 /* Pods-GNLicenseFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNLicenseFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5FA30ADE259117E406E9C4AB3A1FEF3A /* Pods-GNLicenseFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNLicenseFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6DD8CE28569EE13797439545F9907262 /* Pods-GNLicenseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GNLicenseFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		7B186CC52CC0CA4AC6159493BD60E8EB /* Pods_GNLicenseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNLicenseFramework_Tests.framework; path = "Pods-GNLicenseFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD8CE28569EE13797439545F9907262 /* Pods-GNLicenseFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GNLicenseFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		7B186CC52CC0CA4AC6159493BD60E8EB /* Pods_GNLicenseFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNLicenseFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8C934434614E64B8D2B6D9C538B043 /* Pods-GNLicenseFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNLicenseFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B8B057FFFE16EA6AEE6C49D11A139F /* GNLicenseFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNLicenseFramework-prefix.pch"; sourceTree = "<group>"; };
-		A2B5FB4249FE78B475E3BFC8ECB9C575 /* Pods_GNLicenseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNLicenseFramework_Example.framework; path = "Pods-GNLicenseFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A2B5FB4249FE78B475E3BFC8ECB9C575 /* Pods_GNLicenseFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNLicenseFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B644A24450946A78EAE44C010F76A129 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0009D2020B9D39116464BF9C63010DE /* Pods-GNLicenseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GNLicenseFramework_Example.modulemap"; sourceTree = "<group>"; };
+		C0009D2020B9D39116464BF9C63010DE /* Pods-GNLicenseFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GNLicenseFramework_Example.modulemap"; sourceTree = "<group>"; };
 		C12C9E7B1E6326861CDBBB8E2DCC99DB /* GNLicenseFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNLicenseFramework-dummy.m"; sourceTree = "<group>"; };
 		C6A5E686699BF9EA425C14F76D68F90F /* Pods-GNLicenseFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNLicenseFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,10 +143,44 @@
 		34F1E24FFB223EAEC46A4CEDA9D5481F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AF0B5B2A7A36F1A60F7FC0A3287EA088 /* ReplaceMe.m */,
+				45F5C7811E7573BC00BE363F /* Encryption */,
 			);
-			name = Classes;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		45F5C7801E7573AB00BE363F /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				45F5C7A01E7573F500BE363F /* AESCrypt.h */,
+				45F5C7A11E7573F500BE363F /* AESCrypt.m */,
+				45F5C7A71E7573F500BE363F /* NSData+Base64.h */,
+				45F5C7A81E7573F500BE363F /* NSData+Base64.m */,
+				45F5C7A91E7573F500BE363F /* NSData+CommonCrypto.h */,
+				45F5C7AA1E7573F500BE363F /* NSData+CommonCrypto.m */,
+				45F5C7AB1E7573F500BE363F /* NSString+Base64.h */,
+				45F5C7AC1E7573F500BE363F /* NSString+Base64.m */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+		45F5C7811E7573BC00BE363F /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				45F5C7801E7573AB00BE363F /* AES */,
+				45F5C7821E7573E300BE363F /* Base64.h */,
+				45F5C7831E7573E300BE363F /* Base64.m */,
+				453AA1041E7578F8008722C4 /* NSString+Hash.h */,
+				453AA1051E7578F8008722C4 /* NSString+Hash.m */,
+				45F5C7881E7573E300BE363F /* RSA.h */,
+				45F5C7891E7573E300BE363F /* RSA.m */,
+				45F5C78A1E7573E300BE363F /* SAMKeychain.h */,
+				45F5C78B1E7573E300BE363F /* SAMKeychain.m */,
+				45F5C78C1E7573E300BE363F /* SAMKeychainQuery.h */,
+				45F5C78D1E7573E300BE363F /* SAMKeychainQuery.m */,
+				45F5C78F1E7573E300BE363F /* GNLicenseFrameworkManager.h */,
+				45F5C7901E7573E300BE363F /* GNLicenseFrameworkManager.m */,
+			);
+			name = Encryption;
 			sourceTree = "<group>";
 		};
 		5B6F58C9B9D4E726963A71ED7868905C /* GNLicenseFramework */ = {
@@ -212,7 +284,6 @@
 			children = (
 				34F1E24FFB223EAEC46A4CEDA9D5481F /* Classes */,
 			);
-			name = GNLicenseFramework;
 			path = GNLicenseFramework;
 			sourceTree = "<group>";
 		};
@@ -231,7 +302,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F5C79E1E7573E300BE363F /* GNLicenseFrameworkManager.h in Headers */,
+				45F5C7B41E7573F500BE363F /* NSData+Base64.h in Headers */,
+				45F5C7B61E7573F500BE363F /* NSData+CommonCrypto.h in Headers */,
 				4E1080F2AAC8C179CCC0C0FF0BB110DC /* GNLicenseFramework-umbrella.h in Headers */,
+				453AA1061E7578F8008722C4 /* NSString+Hash.h in Headers */,
+				45F5C7971E7573E300BE363F /* RSA.h in Headers */,
+				45F5C79B1E7573E300BE363F /* SAMKeychainQuery.h in Headers */,
+				45F5C7991E7573E300BE363F /* SAMKeychain.h in Headers */,
+				45F5C7AD1E7573F500BE363F /* AESCrypt.h in Headers */,
+				45F5C7911E7573E300BE363F /* Base64.h in Headers */,
+				45F5C7B81E7573F500BE363F /* NSString+Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +420,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F5C7921E7573E300BE363F /* Base64.m in Sources */,
+				453AA1071E7578F8008722C4 /* NSString+Hash.m in Sources */,
+				45F5C79A1E7573E300BE363F /* SAMKeychain.m in Sources */,
+				45F5C7B71E7573F500BE363F /* NSData+CommonCrypto.m in Sources */,
+				45F5C79F1E7573E300BE363F /* GNLicenseFrameworkManager.m in Sources */,
+				45F5C7981E7573E300BE363F /* RSA.m in Sources */,
+				45F5C7B91E7573F500BE363F /* NSString+Base64.m in Sources */,
+				45F5C7B51E7573F500BE363F /* NSData+Base64.m in Sources */,
+				45F5C79C1E7573E300BE363F /* SAMKeychainQuery.m in Sources */,
+				45F5C7AE1E7573F500BE363F /* AESCrypt.m in Sources */,
 				6756E50DB12EBE24F00B15738864B820 /* GNLicenseFramework-dummy.m in Sources */,
-				C452F67731D73810F52F91454190C756 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "GNViewController.h"
+#import <GNLicenseFramework/GNLicenseFrameworkManager.h>
 
 @interface GNViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor cyanColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
