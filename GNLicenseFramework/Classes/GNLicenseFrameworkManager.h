@@ -36,6 +36,7 @@
  @param account 用户名
  @param goods_id 商品id
  @return 序列号
+ 计算序列号时加入bundleID
  */
 + (NSString *)getSerialNumberWithService:(NSString *)service account:(NSString *)account goods_id:(NSString *)goods_id;
 

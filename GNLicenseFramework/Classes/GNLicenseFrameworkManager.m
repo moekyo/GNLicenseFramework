@@ -419,7 +419,8 @@ static NSData *base64_decode(NSString *str){
         identifierForAdvertising = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
         [SAMKeychain setPassword:identifierForAdvertising forService:service account:account];
     }
-    identifierForAdvertising = [identifierForAdvertising stringByAppendingString:goods_id];
+    NSString *bundleID = [[NSBundle mainBundle] bundleIdentifier];
+    identifierForAdvertising = [[identifierForAdvertising stringByAppendingString:goods_id] stringByAppendingString:bundleID];
     NSString *base64Str = [account base64EncodedString];
     NSString *serialNumber = [base64Str stringByAppendingString:identifierForAdvertising];
     

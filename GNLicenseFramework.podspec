@@ -28,7 +28,7 @@ An easy to use authorization framework. Install library into project, never have
   s.source           = { :git => 'https://github.com/moekyo/GNLicenseFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'GNLicenseFramework/Classes/**/*'
   
@@ -37,6 +37,6 @@ An easy to use authorization framework. Install library into project, never have
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit','Security'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
